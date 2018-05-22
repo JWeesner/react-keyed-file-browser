@@ -24,17 +24,6 @@ class Detail extends React.Component {
     name = name.length ? name[name.length - 1] : ''
 
     return (
-      <div>
-        <h2>Item Detail</h2>
-        <dl>
-          <dt>Key</dt>
-          <dd>{this.props.file.key}</dd>
-
-          <dt>Name</dt>
-          <dd>{name}</dd>
-        </dl>
-        <a href="#" onClick={this.handleCloseClick}>Close</a>
-      </div>
     )
   }
 }
